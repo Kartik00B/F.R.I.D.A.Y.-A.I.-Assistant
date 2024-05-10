@@ -4,9 +4,13 @@ Welcome to the repository for our AI Desktop Voice Assistant, a robust applicati
 
 # Features
 Voice-Activated Commands: Activate and use the voice assistant through simple voice commands.
+
 Application Automation: Automate routine tasks within WhatsApp and Instagram.
+
 Google Search Integration: Perform web searches directly through voice commands.
+
 Image Recognition: Utilize Gemini AI to recognize and process images.
+
 Location Services: Search and retrieve location data seamlessly.
 
 # Getting Started
