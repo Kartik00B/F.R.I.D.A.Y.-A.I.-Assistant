@@ -24,7 +24,7 @@ Clone the repo and set up the environment.
 
 bash
 Copy code
-git clone https://github.com/yourusername/ai-desktop-voice-assistant.git
+git clone https://github.com/Kartik00B/ai-desktop-voice-assistant.git
 cd ai-desktop-voice-assistant
 
 
