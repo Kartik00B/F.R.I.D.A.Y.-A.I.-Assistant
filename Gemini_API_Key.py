@@ -1,0 +1,1 @@
+Gemini_Key = "Gemini_API_Key" 
