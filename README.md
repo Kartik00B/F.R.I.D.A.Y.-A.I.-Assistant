@@ -10,10 +10,10 @@ Google Search Integration: Perform web searches directly through voice commands.
 Image Recognition: Utilize Gemini AI to recognize and process images.
 Location Services: Search and retrieve location data seamlessly.
 
-#Getting Started
+# Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-#Prerequisites
+# Prerequisites
 What things you need to install the software and how to install them:
 
 bash
@@ -38,11 +38,11 @@ Execute the following command to start the assistant:
 
 bash
 Copy code
-python voice_assistant.py
+python demo.py
 
 # Usage
 A quick guide on how to use the AI Desktop Voice Assistant.
-Activate the Assistant: run the "Demo.py" file.
+Activate the Assistant: run the "demo.py" file.
 Voice Commands: After activation, the assistant listens to your commands. Say "Hello" to test the initial greeting.
 Using Features: Request tasks like "check WhatsApp notifications", "Check Instagram notifications", or "Search on Google".
 
