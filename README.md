@@ -17,6 +17,7 @@ What things you need to install the software and how to install them:
 
 bash
 Copy code
+
 pip install SpeechRecognition pyttsx3 PyAudio
 
 # Installation
@@ -24,12 +25,14 @@ Clone the repo and set up the environment.
 
 bash
 Copy code
-git clone https://github.com/Kartik00B/ai-desktop-voice-assistant.git
+git clone https://github.com/Kartik00B/Kartik00B-F.R.I.D.A.Y.-A.I.-Assistant
+
 cd ai-desktop-voice-assistant
 
 
 # Setup virtual environment (optional but recommended)
 python -m venv venv
+
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
 # Running the Assistant
@@ -37,16 +40,23 @@ Execute the following command to start the assistant:
 
 bash
 Copy code
+
 python demo.py
 
 # Usage
 A quick guide on how to use the AI Desktop Voice Assistant.
+
 Activate the Assistant: run the "demo.py" file.
+
 Voice Commands: After activation, the assistant listens to your commands. Say "Hello" to test the initial greeting.
+
 Using Features: Request tasks like "check WhatsApp notifications", "Check Instagram notifications", or "Search on Google".
 
 # Built With
 Python - The core programming language used.
+
 SpeechRecognition - Library for performing speech recognition.
+
 pyttsx3 - Text-to-speech conversion library.
+
 Gemini AI - For image recognition features (Note: Replace with actual link or resource).
