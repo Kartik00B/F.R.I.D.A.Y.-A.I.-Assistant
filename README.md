@@ -1,4 +1,3 @@
-# Kartik00B-F.R.I.D.A.Y.-A.I.-Assistant
 
 # F.R.I.D.A.Y.-AI Desktop Voice Assistant
 Welcome to the repository for our AI Desktop Voice Assistant, a robust application designed to enhance productivity and interaction on your desktop. This voice assistant leverages state-of-the-art AI technologies to automate tasks across various applications like WhatsApp, Instagram, and integrates with Google search. Additionally, it employs Gemini AI for advanced image recognition capabilities.
