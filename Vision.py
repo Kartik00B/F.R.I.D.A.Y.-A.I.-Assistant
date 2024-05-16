@@ -8,10 +8,10 @@ https://ai.google.dev/gemini-api/docs/get-started/python
 """
 
 import os
-from Gemini_API_Key
+from Gemini_API_Key import Gemini_Key
 import google.generativeai as genai
 
-genai.configure(api_key=os.environ["Gemini_Api_Key"])
+genai.configure(api_key=os.environ["Gemini_Key"])
 
 # Create the model
 # See https://ai.google.dev/api/python/google/generativeai/GenerativeModel
