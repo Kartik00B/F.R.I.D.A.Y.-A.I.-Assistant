@@ -9,9 +9,6 @@ def get_public_ip():
         print(f"Error fetching public IP: {e}")
         return None
 
-#ipinfo_token = '4dd1a712dd1121'
-#visual_crossing_key = 'J6LHWKPNT2MUEKDHKESEKBYAE'
-
 def get_location(ip, ipinfo_token):
     try:
         response = requests.get(f"https://ipinfo.io/{ip}?token={ipinfo_token}")
@@ -42,9 +39,9 @@ def get_weather(latitude, longitude, visual_crossing_key):
 
 def process_command(command, ipinfo_token=None, visual_crossing_key=None):
     if ipinfo_token is None:
-        ipinfo_token = '4dd1a712dd1121'
+        ipinfo_token = 'ipinfo_token'
     if visual_crossing_key is None:
-        visual_crossing_key = 'J6LHWKPNT2MUEKDHKESEKBYAE'
+        visual_crossing_key = 'visual_crossing_key'
 
     if 'weather' in command:
         ip = get_public_ip()
