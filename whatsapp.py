@@ -18,7 +18,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 from Listen.voice import SpeechRecognitionModel
 from voice.AI_voice import main
 # Initialize the Cohere client with your API key
-co = cohere.Client(api_key="dvHeaDSHFnnyGfCIkeekis22yzS98HhgAg8FNF3q")
+co = cohere.Client(api_key="your API key")
 
 def init_driver():
     # Path to ChromeDriver executable
